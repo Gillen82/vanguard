@@ -1,0 +1,194 @@
+/* 
+    Colours
+    Black - #000
+    Red   - #d70016
+
+    Font
+
+ */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #000;
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 2px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+h1 {
+	font-family: 'Anton', sans-serif;
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+
+.container {
+	width: 98%;
+	margin: auto;
+}
+
+/* HEADER */
+.header-flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.main-header h1 {
+	font-size: 45px;
+	display: flex;
+	align-items: center;
+}
+
+.main-header h1 span {
+	font-size: 20px;
+}
+
+.main-nav {
+	display: flex;
+	gap: 50px;
+	align-items: center;
+}
+
+.main-nav ul {
+	display: flex;
+	align-items: center;
+}
+
+.main-nav li,
+.secondary-nav li {
+	padding: 20px;
+	color: #bbb;
+	text-transform: uppercase;
+	transition: all 0.3s ease-in-out;
+	font-size: 14px;
+}
+
+.main-nav li:hover,
+.secondary-nav li:hover {
+	color: #fff;
+	background-color: #111;
+}
+
+.secondary-nav ul {
+	display: flex;
+}
+
+/* HERO */
+.hero {
+	width: 100%;
+	height: 800px;
+	position: relative;
+}
+
+video {
+	width: 90%;
+	margin: auto;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.info {
+	position: absolute;
+	bottom: 100px;
+	left: 120px;
+	padding: 30px;
+}
+
+.info h2 {
+	font-size: 30px;
+}
+
+.cta-learn {
+	background-color: #d70016;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	margin-top: 10px;
+	transition: all 0.3s ease-in-out;
+}
+
+.cta-learn:hover {
+	background-color: #e9770c;
+}
+
+/* TILES */
+.tiles {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.tiles img {
+	width: 33.3333333%;
+}
+
+/* SHOTGUN */
+.shotgun {
+	background: #fff;
+	margin-top: 200px;
+	color: #000;
+	padding: 50px 0;
+}
+
+.shotgun-flex {
+	display: flex;
+	justify-content: center;
+	gap: 100px;
+}
+
+.shotgun img {
+	width: 30%;
+}
+
+.shotgun-info {
+	width: 39%;
+}
+
+.shotgun-info h2 {
+	text-align: center;
+}
+
+.cta-log {
+	background-color: #000;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	margin-top: 10px;
+	transition: all 0.3s ease-in-out;
+}
+
+.cta-log:hover {
+	background-color: #ccc;
+	color: #000;
+}
+
+/* FOOTER */
+footer {
+	padding: 200px 0 50px 0;
+}
+
+.footer-nav ul {
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+}
